@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		2DBE4FDC2E53290000B1A3B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DBE4FC12E5328FE00B1A3B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DBE4FC82E5328FE00B1A3B5;
+			remoteInfo = Investr;
+		};
+		2DBE4FE62E53290000B1A3B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DBE4FC12E5328FE00B1A3B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DBE4FC82E5328FE00B1A3B5;
+			remoteInfo = Investr;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2DBE4FC92E5328FE00B1A3B5 /* Investr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Investr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DBE4FDB2E53290000B1A3B5 /* InvestrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InvestrTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DBE4FE52E53290000B1A3B5 /* InvestrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InvestrUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		2D0597482E66299D00DF3306 /* Exceptions for "Investr" folder in "InvestrTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				CalculatorTests.swift,
+			);
+			target = 2DBE4FDA2E53290000B1A3B5 /* InvestrTests */;
+		};
+		2D0597492E662A1100DF3306 /* Exceptions for "Investr" folder in "Investr" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				CalculatorTests.swift,
+			);
+			target = 2DBE4FC82E5328FE00B1A3B5 /* Investr */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		2DBE4FCB2E5328FE00B1A3B5 /* Investr */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				2D0597492E662A1100DF3306 /* Exceptions for "Investr" folder in "Investr" target */,
+				2D0597482E66299D00DF3306 /* Exceptions for "Investr" folder in "InvestrTests" target */,
+			);
+			path = Investr;
+			sourceTree = "<group>";
+		};
+		2DBE4FDE2E53290000B1A3B5 /* InvestrTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = InvestrTests;
+			sourceTree = "<group>";
+		};
+		2DBE4FE82E53290000B1A3B5 /* InvestrUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = InvestrUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2DBE4FC62E5328FE00B1A3B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DBE4FD82E53290000B1A3B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DBE4FE22E53290000B1A3B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2DBE4FC02E5328FE00B1A3B5 = {
+			isa = PBXGroup;
+			children = (
+				2DBE4FCB2E5328FE00B1A3B5 /* Investr */,
+				2DBE4FDE2E53290000B1A3B5 /* InvestrTests */,
+				2DBE4FE82E53290000B1A3B5 /* InvestrUITests */,
+				2DBE4FCA2E5328FE00B1A3B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2DBE4FCA2E5328FE00B1A3B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2DBE4FC92E5328FE00B1A3B5 /* Investr.app */,
+				2DBE4FDB2E53290000B1A3B5 /* InvestrTests.xctest */,
+				2DBE4FE52E53290000B1A3B5 /* InvestrUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2DBE4FC82E5328FE00B1A3B5 /* Investr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DBE4FEF2E53290000B1A3B5 /* Build configuration list for PBXNativeTarget "Investr" */;
+			buildPhases = (
+				2DBE4FC52E5328FE00B1A3B5 /* Sources */,
+				2DBE4FC62E5328FE00B1A3B5 /* Frameworks */,
+				2DBE4FC72E5328FE00B1A3B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				2DBE4FCB2E5328FE00B1A3B5 /* Investr */,
+			);
+			name = Investr;
+			packageProductDependencies = (
+			);
+			productName = Investr;
+			productReference = 2DBE4FC92E5328FE00B1A3B5 /* Investr.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2DBE4FDA2E53290000B1A3B5 /* InvestrTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DBE4FF22E53290000B1A3B5 /* Build configuration list for PBXNativeTarget "InvestrTests" */;
+			buildPhases = (
+				2DBE4FD72E53290000B1A3B5 /* Sources */,
+				2DBE4FD82E53290000B1A3B5 /* Frameworks */,
+				2DBE4FD92E53290000B1A3B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DBE4FDD2E53290000B1A3B5 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				2DBE4FDE2E53290000B1A3B5 /* InvestrTests */,
+			);
+			name = InvestrTests;
+			packageProductDependencies = (
+			);
+			productName = InvestrTests;
+			productReference = 2DBE4FDB2E53290000B1A3B5 /* InvestrTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2DBE4FE42E53290000B1A3B5 /* InvestrUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DBE4FF52E53290000B1A3B5 /* Build configuration list for PBXNativeTarget "InvestrUITests" */;
+			buildPhases = (
+				2DBE4FE12E53290000B1A3B5 /* Sources */,
+				2DBE4FE22E53290000B1A3B5 /* Frameworks */,
+				2DBE4FE32E53290000B1A3B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DBE4FE72E53290000B1A3B5 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				2DBE4FE82E53290000B1A3B5 /* InvestrUITests */,
+			);
+			name = InvestrUITests;
+			packageProductDependencies = (
+			);
+			productName = InvestrUITests;
+			productReference = 2DBE4FE52E53290000B1A3B5 /* InvestrUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2DBE4FC12E5328FE00B1A3B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					2DBE4FC82E5328FE00B1A3B5 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					2DBE4FDA2E53290000B1A3B5 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 2DBE4FC82E5328FE00B1A3B5;
+					};
+					2DBE4FE42E53290000B1A3B5 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 2DBE4FC82E5328FE00B1A3B5;
+					};
+				};
+			};
+			buildConfigurationList = 2DBE4FC42E5328FE00B1A3B5 /* Build configuration list for PBXProject "Investr" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2DBE4FC02E5328FE00B1A3B5;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 2DBE4FCA2E5328FE00B1A3B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2DBE4FC82E5328FE00B1A3B5 /* Investr */,
+				2DBE4FDA2E53290000B1A3B5 /* InvestrTests */,
+				2DBE4FE42E53290000B1A3B5 /* InvestrUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2DBE4FC72E5328FE00B1A3B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DBE4FD92E53290000B1A3B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DBE4FE32E53290000B1A3B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2DBE4FC52E5328FE00B1A3B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DBE4FD72E53290000B1A3B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DBE4FE12E53290000B1A3B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2DBE4FDD2E53290000B1A3B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2DBE4FC82E5328FE00B1A3B5 /* Investr */;
+			targetProxy = 2DBE4FDC2E53290000B1A3B5 /* PBXContainerItemProxy */;
+		};
+		2DBE4FE72E53290000B1A3B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2DBE4FC82E5328FE00B1A3B5 /* Investr */;
+			targetProxy = 2DBE4FE62E53290000B1A3B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2DBE4FED2E53290000B1A3B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 52C4YANH97;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2DBE4FEE2E53290000B1A3B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 52C4YANH97;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2DBE4FF02E53290000B1A3B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 52C4YANH97;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "rabiac-akici.Investr";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2DBE4FF12E53290000B1A3B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 52C4YANH97;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "rabiac-akici.Investr";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2DBE4FF32E53290000B1A3B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 52C4YANH97;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "rabiac-akici.InvestrTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Investr.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Investr";
+			};
+			name = Debug;
+		};
+		2DBE4FF42E53290000B1A3B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 52C4YANH97;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "rabiac-akici.InvestrTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Investr.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Investr";
+			};
+			name = Release;
+		};
+		2DBE4FF62E53290000B1A3B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 52C4YANH97;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "rabiac-akici.InvestrUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Investr;
+			};
+			name = Debug;
+		};
+		2DBE4FF72E53290000B1A3B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 52C4YANH97;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "rabiac-akici.InvestrUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Investr;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2DBE4FC42E5328FE00B1A3B5 /* Build configuration list for PBXProject "Investr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DBE4FED2E53290000B1A3B5 /* Debug */,
+				2DBE4FEE2E53290000B1A3B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DBE4FEF2E53290000B1A3B5 /* Build configuration list for PBXNativeTarget "Investr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DBE4FF02E53290000B1A3B5 /* Debug */,
+				2DBE4FF12E53290000B1A3B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DBE4FF22E53290000B1A3B5 /* Build configuration list for PBXNativeTarget "InvestrTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DBE4FF32E53290000B1A3B5 /* Debug */,
+				2DBE4FF42E53290000B1A3B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DBE4FF52E53290000B1A3B5 /* Build configuration list for PBXNativeTarget "InvestrUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DBE4FF62E53290000B1A3B5 /* Debug */,
+				2DBE4FF72E53290000B1A3B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2DBE4FC12E5328FE00B1A3B5 /* Project object */;
+}
