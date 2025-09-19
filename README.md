@@ -1,45 +1,26 @@
-# Investr: Finansal Özgürlüğe Giden Yolunuz
+Investr: Kişisel Finans ve Yatırım Takip Uygulaması
+Investr, finansal hedeflerinize ulaşmanız ve mali durumunuzu kolayca yönetmeniz için tasarlanmış bir iOS uygulamasıdır. Günlük, aylık ve sabit harcamalarınızı takip ederek bütçenizi kontrol altına almanızı, aynı zamanda yatırım hedeflerinize ne kadar yakın olduğunuzu görsel olarak izlemenizi sağlar.
 
-![Investr Günlük Harcama Ekranı](assets/daily_expense_screenshot.jpg)
-![Investr Gösterge Paneli](assets/dashboard_screenshot.jpg)
+Uygulama Hikayesi ve Amacı
+Günümüzde finansal okuryazarlık her zamankinden daha önemli hale geldi. Birçok kişi, gelir ve gider dengesini kurmakta veya tasarruf hedefleri belirlemekte zorlanabiliyor. Investr bu sorunu çözmek için yola çıktı. Amacımız, karmaşık finansal tablolar yerine basit ve anlaşılır bir arayüzle kullanıcıların mali durumlarını şeffaf bir şekilde görmelerini sağlamaktır. Uygulama, finansal takibi sıkıcı bir görev olmaktan çıkarıp, motivasyon kaynağına dönüştürmeyi hedefler.
 
+Başlıca Özellikler
+Detaylı Mali Durum Paneli:
 
+Aylık Gelir: Toplam aylık kazancınızı girin ve ana ekranda takip edin.
 
-Investr, kişisel finans yönetiminizi tamamen sizin kontrolünüze veren, harcama takibinden çok daha fazlasını sunan akıllı bir mobil uygulamadır.  
-Bütçenizi kolayca yönetin, harcamalarınızı analiz edin ve yatırım hedeflerinize giden yolda emin adımlarla ilerleyin.
+Sabit Giderler: Kira, faturalar gibi değişmeyen giderlerinizi kaydederek bütçenizden otomatik olarak düşürülmesini sağlayın.
 
----
+Günlük Harcamalar: Günlük harcamalarınızı anında ekleyerek bütçenizdeki anlık düşüşleri gözlemleyin.
 
-## Neden Investr?
+Kalan Bütçe: Aylık gelirinizden giderleriniz ve harcamalarınız düşüldükten sonra kalan net bütçenizi görün.
 
-Giderlerinizi takip etmek bir angarya olmak zorunda değil.  
-Investr, finansal alışkanlıklarınızı anlamanızı ve bilinçli kararlar vermenizi sağlayan güçlü, sezgisel araçlar sunar.  
-Aylık gelirinizi ve hedeflerinizi girerek yolculuğunuza başlayın ve paranızın nereye gittiğini tam olarak görün.
+Yatırım Hedefi Takibi:
 
----
+Belirlediğiniz bir yatırım hedefini (örneğin, birikim, araba, ev) girerek, bu hedefe ne kadar yaklaştığınızı yüzdesel ve görsel bir bar üzerinden takip edin. Bu özellik, sizi motive ederek tasarruf alışkanlığı kazanmanızı teşvik eder.
 
-## Ana Özellikler
+Sezgisel Arayüz:
 
-- **Akıllı Onboarding:** Uygulamayı ilk kez açtığınızda, aylık gelirinizi ve ideal yatırım hedefinizi belirleyerek kişiselleştirilmiş bir finans planı oluşturun.  
-- **Bütünleşik Gösterge Paneli:** Finansal durumunuzun anlık bir özetini tek bir ekranda görün.  
-- **Detaylı Harcama Takibi:** Günlük harcamalarınızı kolayca ad, miktar ve kategori ile girin.  
-- **Görsel Analiz:** Harcama alışkanlıklarınızı grafiklerle görselleştirin.  
-- **Sabit Gider Yönetimi:** Yinelenen harcamalarınızı tek bir yerde yönetin.  
-- **Esnek Ayarlar:** Uygulamayı maaş gününüze göre kişiselleştirin.  
+Basit ve modern bir kullanıcı arayüzü sayesinde, finansal verilerinizi hızlı ve kolay bir şekilde yönetin. Uygulama, karmaşadan uzak, odaklanmış bir deneyim sunar.
 
----
-
-## Kullanılan Teknolojiler
-
-- **Swift & SwiftUI**  
-- **Core Data**  
-- **Charts Framework**  
-
----
-
-## Kurulum ve Başlatma
-
-1. Bu projeyi klonlayın veya zip dosyasını indirin:  
-   ```bash
-   git clone https://github.com/rabiackc/Investr.git
 
