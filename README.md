@@ -1,7 +1,7 @@
 # Investr: Finansal Özgürlüğe Giden Yolunuz
 
-![Investr Günlük Harcama Ekranı](assets/daily_expense_screenshot.png)  
-![Investr Gösterge Paneli](assets/dashboard_screenshot.png)
+![Investr Günlük Harcama Ekranı](assets/daily_expense_screenshot.jpg)  
+![Investr Gösterge Paneli](assets/dashboard_screenshot.jpg)
 
 Investr, kişisel finans yönetiminizi tamamen sizin kontrolünüze veren, harcama takibinden çok daha fazlasını sunan akıllı bir mobil uygulamadır.  
 Bütçenizi kolayca yönetin, harcamalarınızı analiz edin ve yatırım hedeflerinize giden yolda emin adımlarla ilerleyin.
