@@ -37,10 +37,7 @@ Aylık gelirinizi ve hedeflerinizi girerek yolculuğunuza başlayın ve paranız
 
 ## Kurulum ve Başlatma
 
-1. Bu projeyi klonlayın veya zip dosyasını indirin.  
-2. Xcode'u (sürüm 14 veya üzeri) açın ve `Investr.xcodeproj` dosyasını seçin.  
-3. Bir iPhone simülatörü veya fiziksel cihaz seçin.  
-4. `Command + R` ile derleme işlemini başlatın.  
-5. Uygulama ilk açıldığında sizden temel bilgileri girmenizi isteyecek. 🎉
+1. Bu projeyi klonlayın veya zip dosyasını indirin:  
+   ```bash
+   git clone https://github.com/rabiackc/Investr.git
 
-# Investr
